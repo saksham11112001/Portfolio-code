@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="asset/css/main.css" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="AI-ML Enthusiast">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Saksham gupta">
+    <meta name='image' content='asset/img/Portrait.png'>
+    <script src="https://kit.fontawesome.com/4019246ab4.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon"
+        href="asset/img/Portrait.png"
+        type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <title>Saksham gupta</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <script>
+            $(function () {
+                setTimeout(function () { goToSecondTab(); }, 5000);
+                function goToSecondTab() {
+                    window.location.hash = '#about';
+                }
+            });
+    </script>
+    <script>
+        $(document).on('keydown', function(e) {
+            // if(e.ctrlKey && (e.key == "p" || e.charCode == 16 || e.charCode == 112 || e.keyCode == 80) ){
+            //     alert("Sorry, you are not authorized to take a Print");
+                e.cancelBubble = true;
+                e.preventDefault();
+                e.stopImmediatePropagation();
+            }
+        });
+    </script>
+</head>
+
+<body oncontextmenu="return false;"  onmousedown = 'return false;' onselectstart = 'return false;' >
+
+    <!--Header-->
+    <div id="header"> 
+
+        <div id="small-screen-nav">
+          <div id="close"></div>
+             <ul id="small-ul">
+            <li><a href="#">Home</a></li>
+            <li class="uc nav-item"><a href="#about" rel="“noreferrer”" class="nav-link active">About</a></li>
+            <li class="uc nav-item"><a href="#projects" rel="“noreferrer”" class="nav-link active">Projects</a></li>
+
+            <li class="uc nav-item"><a href="#publications" rel="“noreferrer”" class="nav-link active">Publications</a></li>
+            <li class="uc nav-item"><a href="/blog" rel="“noreferrer”" class="nav-link active">Blog</a></li>
+
+              <li>    </li>
+            </ul>
+        </div>
+        
+        <div id="container">
+          <ul id="full-ul">
+            
+
+
+            
+            <li><a href="#">Home</a></li>
+            <li class="uc nav-item"><a href="#about" rel="“noreferrer”" class="nav-link active">About</a></li>
+            <li class="uc nav-item"><a href="#projects" rel="“noreferrer”" class="nav-link active">Projects</a></li>
+
+            <li class="uc nav-item"><a href="#publications" rel="“noreferrer”" class="nav-link active">Publications</a></li>
+            <li class="uc nav-item"><a href="/blog"" rel="“noreferrer”" class="nav-link active">Blog</a></li>
+            
+            <li>    </li>
+
+          </ul>
+          <div id="nav-icon"></div>
+        </div>              
+      </div>
+    <!--Landing page div-->
+    <div class="landing">
+        <div class="img"><img src="asset/img/code.gif" alt="" /></div>
+        <div class="container">
+            <div class="h1" data-aos="zoom-in-up" data-aos-duration="3000">
+                <h1>
+                    <!--Enter your Name here -->
+                    <a> Saksham Gupta <b>|</b></a>
+                </h1>
+                <!--Enter your Specializations here  -->
+                <div id="typed-strings">
+                    <p>Web Development</p>
+                    <p>Machine Learning</p>
+                    <p>Data Science</p>
+                    <p>Engineer 🔥</p>
+                </div> <span id="typed"></span>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs></defs>
+            <path id="landingsvg" d="" />
+        </svg>
+        <div class="container container1">
+            <div class="card card1" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div class="title">About Me</div>
+                <!--Add ur Image here make sure it is a square Image eg: 300x300px-->
+                <div class="img"><img
+                        src="asset/img/Portrait.png"
+                        alt="myimage"></div>
+                <!--
+				  Enter Your description here
+			  -->
+                <p>Hi there! I am Saksham Gupta from New Delhi, 🇮🇳<br>
+			I am currently pursuing Bachelor of Engineering from Delhi Technological University.<br>
+			</p>
+		        <a class="resume" href="/resume.pdf">Resume</a>
+            </div>
+        </div>
+        <div class="container container1">
+            <div class="card card2 " data-aos="zoom-in-up" data-aos-duration="1000"> <span><b></b></span>
+                <div class="title">Experirence</div>
+        <div class="timeline">
+            <div class="outer">
+                <div class="cardd" >
+                    <div class="info">
+                         <h3 class="titlee">Freelancer</h3>
+                         <p> Web Development   </p>
+                         <p>Jan 2021 - Present</p>
+                    </div>
+                </div>
+            
+            <div class="cardd" onclick="location.href='/certificates/HearUs.pdf';" id="smallbox">
+                <div class="info"  onclick="location.href='/certificates/HearUs.pdf';" id="smallbox">
+                     <h3 class="titlee"  onclick="location.href='/certificates/HearUs.pdf';" id="smallbox">Web Design Intern</h3>
+                     <p  onclick="location.href='/certificates/HearUs.pdf';" id="smallbox"> USIP DTU </p>
+                     <p  onclick="location.href='/certificates/HearUs.pdf';" id="smallbox">Sept 2022 - Dec 2022</p>
+                </div>
+            </div>
+            <div class="cardd">
+                <div class="info">
+                     <h3 class="titlee">DevOps and Prod Intern</h3>
+                     <p> Frontrow </p>
+                     <p>Sept 2022 - Dec 2022</p>
+                </div>
+
+        </div>
+
+        </div>
+        </div>
+    </div>
+        
+        <div class="container container2">
+            <div class="card card2 " data-aos="zoom-in-up" data-aos-duration="1000"> <span><b></b></span>
+                <br> <span> Programing</span>
+                <ul class="mainlist">
+                    <!--U can use Fontawsome icons here-->
+                    <!--I have usedicon from https://icons8.com if u need to add new icon and title follow the format below and make sure the size of the  icon is 48pxx from icon8 site-->
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/c-programming.png" /></li>
+                        <li>C</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" /></li>
+                        <li>C++</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/dusk/48/000000/python.png" /></li>
+                        <li>Python</li>
+                    </ul>
+                    
+                </ul> <span style="width: 100%; text-align: center;">Skills</span>
+                <ul class="mainlist">
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-machine-learning-data-processing-inipagistudio-mixed-inipagistudio.png"
+                                alt="Machine Learning" /></li>
+                        <li>Machine Learning</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-deep-learning-artificial-intelligence-becris-flat-becris.png"
+                                alt="Deep Learning" /></li>
+                        <li>DWeb Development</li>
+                    </ul>
+                    <!-- <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-networking-cryptocurrency-block-chain-becris-lineal-becris.png"
+                                alt="Computer Networks" /></li>
+                        <li>Networking</li>
+                    </ul> -->
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-networking-cryptocurrency-block-chain-becris-lineal-becris.png" alt="Networking" />
+                        </li>
+                        <li>Networking</li>
+                    </ul>
+                </ul> <span>Tools</span>
+                <ul class="mainlist">
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/git.png" alt="git" /></li>
+                        <li>Git</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/github.png" alt="github" />
+                        </li>
+                        <li>Github</li>
+                    </ul>
+                    <ul class="sublist">
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+                                alt="vscode" /></li>
+                        <li>VS Code</li>
+                    </ul>
+                    <ul class="sublist">
+                        
+                        <li class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/unity.png" alt="gitlab"></li>
+                        <li>Unity</li>
+                    </ul>
+                    <ul class="sublist">
+                        
+                        <li class="icon"><img src="https://img.icons8.com/color/48/000000/blender-3d.png" alt="blender"></li>
+                        <li>Blender</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div class="container container3">
+            <div class="card card3" data-aos="zoom-in-up" data-aos-duration="1000">
+		    <h4><b>Social</b></h4>
+                <ul>
+                    <!--Enter your social media links here-->
+                    <li><a href="https://github.com/incrivee2001"><i class="fab fa-github gt1"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sakshamgupta"><i class="fab fa-linkedin-in ln1"></i></a></li>
+                    <li><a href="mailto:saksham.gpt2001@gmail.com"><i class="fas fa-at el1"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="projects" id='publications'>
+        <svg class="proj" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs></defs>
+            <path id="projectsvg" d="" />
+        </svg>
+        <span>Publications <i class="fas fa-project-diagram"></i></span>
+        <div class="project-card" data-aos="zoom-in-up" data-aos-duration="2000">
+            <!--Use the sample tempalte below for other projects of urs-->
+            <!-- <img src="/asset/img/project1.png" alt=""> -->
+            <div class="title">Solar Panels Crack Detection using Overhead Images</div>
+            <div class="dec">
+                <p> A CNN based Solar Panel Crack Detection, Published in IJRASET</p>
+                <br> <a href="https://dx.doi.org/10.22214/ijraset.2021.38532">DOI</a>
+                <!-- <br> <a href="https://github.com/sakshamgupta/SateliteImageClassification">Github</a> -->
+
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    <div class="projects" id='projects'>
+        <svg class="proj" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs></defs>
+            <path id="projectsvg" d="" />
+        </svg>
+        <span>Projects <i class="fas fa-project-diagram"></i></span>
+        <div class="project-card" data-aos="zoom-in-up" data-aos-duration="2000">
+            <!--Use the sample tempalte below for other projects of urs-->
+            <img src="https://raw.githubusercontent.com/sakshamgupta/portfolio-template/main/asset/img/project1.png" alt="">
+            <div class="title">Satellite Image Classification using CNN</div>
+            <div class="dec">
+                <p> Satellites are used for weather analysis. Satellite images can be used to predict the type of terrain in an area. This project uses images of different classes to detect the type of terrain or to classify the area as cloudy.</p>
+                <br> <a href="https://sakshamgupta.medium.com/satellite-images-classification-using-cnn-5e9a44eafc2">Medium</a>
+                <!-- <br> <a href="https://github.com/sakshamgupta/SateliteImageClassification">Github</a> -->
+
+            </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="https://raw.githubusercontent.com/sakshamgupta/portfolio-template/main/asset/img/project2.jpeg" alt="">
+            <div class="title">Human Activity Recognition</div>
+            <div class="dec">
+                <p> There are multiple sensors in a phone such as accelerometer, gyroscope sensors etc. These sensors can be used to detect the activity of the owner of the phone. The major implementation of this techniques is smart watches and fitness bands. The hand-wears detect the activity of the owner and thus calculate the number of calories burnt by them during the activities.</p>
+                <br> <a href="https://sakshamgupta.medium.com/human-activity-recognition-7abaa9a1cf34">Medium</a>
+            </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="https://raw.githubusercontent.com/sakshamgupta/portfolio-template/main/asset/img/project3.jpeg" alt="">
+            <div class="title">Amazon Product Recommendation System</div>
+            <div class="dec">
+                <p> Every e-commerce website works with a recommendation system to provide the customer with best recommendations on what they might be willing to buy. This article covers how Natural Language Processing can be used to recommend products for the customer. The models are tested for Fashion products. The project is also presented as to complete the course of CO102 at Delhi Technological University.</p>
+                <br> <a href="https://sakshamgupta.medium.com/amazon-product-recommendation-system-855c9d3df481">Medium</a>
+            </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="https://miro.medium.com/max/1400/0*5n4MHs1cGh6RrZJs.jpg" alt="">
+            <div class="title">Brain Tumor Segmentation</div>
+            <div class="dec">
+                <p> Accurate automatic algorithms for the segmentation of brain tumors have the potential of improving disease diagnosis, treatment planning, as well as enabling large-scale studies of the pathology. This article presents the implementation of two Deep Learning models which are used for segmentation of brain tumor using the images available in a dataset on Kaggle.</p>
+                <br> <a href="https://sakshamgupta.medium.com/brain-tumor-segmentation-using-deep-learning-models-5047984b53c0">Medium</a>
+            </div>
+        </div>
+         <div class="project-card" data-aos="zoom-in-up" data-aos-duration="1500">
+            <img src="asset/img/sv.jpg" alt="">
+            <div class="title">Savinodam</div>
+            <div class="dec">
+                <p> Participated in Toycathon 2021 organized by the innovation cell of Ministry of Education along with AIEEE. Out of the initial 17000+ ideas nation-wide, our team reached the final round of the competition with 270(approx.) participating teams. We created a Unity based game, reviving Sanskrit through ancient Gurus themselves</p>
+                <br> <a href="ttps://github.com/sakshamgupta/Savinodam">Github</a>
+            </div>
+        </div>
+    </div>
+    <!--Dont forget to star and follow my account , It appriciates me to make more sites like this -->
+    
+
+<footer>
+    <div class="footer"> Site By <a href="https://sakshamgupta.me">Saksham gupta</a><br><br>
+    <div class="rounded-social-buttons">
+        <a class="social-button linkedin" href="https://www.linkedin.com/in/sakshamgupta" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <!-- <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a> -->
+        <a class="social-button instagram" href="https://www.instagram.com/saksham_gpt11" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+        integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+    <script src="asset/js/wavify.js"></script>
+    <script src="asset/js/jquery.wavify.js"></script>
+    <script src="asset/js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</body>
+
+</html>
